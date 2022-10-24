@@ -13,4 +13,9 @@ public class TestController {
   public ResponseEntity<String> test(){
     return ResponseEntity.ok("test passed!");
   }
+
+  @GetMapping("/v2")
+  public ResponseEntity<String> test2(){
+    return ResponseEntity.ok("test 2 passed!");
+  }
 }
